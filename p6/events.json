@@ -1,0 +1,108 @@
+
+[
+  {
+    "id": 1,
+    "title": "Web Development Workshop",
+    "category": "Technical",
+    "date": "2026-11-05",
+    "description": "Learn HTML, CSS and JavaScript basics."
+  },
+  {
+    "id": 2,
+    "title": "Annual Cultural Fest",
+    "category": "Cultural",
+    "date": "2026-11-10",
+    "description": "Enjoy music, dance and cultural activities."
+  },
+  {
+    "id": 3,
+    "title": "Cricket Tournament",
+    "category": "Sports",
+    "date": "2026-11-12",
+    "description": "Participate in the college cricket tournament."
+  },
+  {
+    "id": 4,
+    "title": "Coding Competition",
+    "category": "Technical",
+    "date": "2026-11-15",
+    "description": "Test your programming and problem-solving skills."
+  },
+  {
+    "id": 5,
+    "title": "Traditional Day",
+    "category": "Cultural",
+    "date": "2026-11-18",
+    "description": "Celebrate culture with traditional outfits."
+  },
+  {
+    "id": 6,
+    "title": "Football Match",
+    "category": "Sports",
+    "date": "2026-11-20",
+    "description": "Join the inter-department football match."
+  },
+  {
+    "id": 7,
+    "title": "AI Technology Seminar",
+    "category": "Technical",
+    "date": "2026-11-22",
+    "description": "Explore artificial intelligence and its applications."
+  },
+  {
+    "id": 8,
+    "title": "Dance Competition",
+    "category": "Cultural",
+    "date": "2026-11-24",
+    "description": "Show your talent in the college dance competition."
+  },
+  {
+    "id": 9,
+    "title": "Badminton Tournament",
+    "category": "Sports",
+    "date": "2026-11-26",
+    "description": "Compete with students in badminton."
+  },
+  {
+    "id": 10,
+    "title": "Cyber Security Workshop",
+    "category": "Technical",
+    "date": "2026-11-28",
+    "description": "Understand online safety and cyber security."
+  },
+  {
+    "id": 11,
+    "title": "Music Night",
+    "category": "Cultural",
+    "date": "2026-12-02",
+    "description": "Enjoy live music and student performances."
+  },
+  {
+    "id": 12,
+    "title": "Basketball Tournament",
+    "category": "Sports",
+    "date": "2026-12-04",
+    "description": "Take part in the college basketball tournament."
+  },
+  {
+    "id": 13,
+    "title": "Robotics Exhibition",
+    "category": "Technical",
+    "date": "2026-12-06",
+    "description": "Discover innovative student robotics projects."
+  },
+  {
+    "id": 14,
+    "title": "Art and Drawing Contest",
+    "category": "Cultural",
+    "date": "2026-12-08",
+    "description": "Display your creativity through art."
+  },
+  {
+    "id": 15,
+    "title": "Athletics Meet",
+    "category": "Sports",
+    "date": "2026-12-10",
+    "description": "Participate in track and field events."
+  }
+]

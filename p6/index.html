@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>StudentHub Portal</h1>
+        <p>Events and Student Information</p>
+    </header>
+
+    <main class="container">
+        <h2>College Events</h2>
+
+        <input type="text" id="searchInput"
+               placeholder="Search events...">
+
+        <select id="categoryFilter">
+            <option value="all">All Categories</option>
+            <option value="Technical">Technical</option>
+            <option value="Cultural">Cultural</option>
+            <option value="Sports">Sports</option>
+        </select>
+
+        <select id="sortOrder">
+            <option value="asc">Sort: A to Z</option>
+            <option value="desc">Sort: Z to A</option>
+        </select>
+
+        <p id="message">Loading events...</p>
+
+        <div id="eventList" class="event-grid"></div>
+        <div class="pagination">
+            <button id="prevBtn">Previous</button>
+            <span id="pageInfo">Page 1</span>
+            <button id="nextBtn">Next</button>
+        </div>
+        <h2>Students List</h2>
+<div id="studentList"></div>
+
+<h2>Frequently Asked Questions</h2>
+<div id="faqList"></div>
+
+    </main>
+
+    <footer>
+        <p>StudentHub Portal | WDF Practical 6</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

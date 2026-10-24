@@ -1,0 +1,93 @@
+
+[
+  {
+    "id": 1,
+    "name": "Aarav Patel",
+    "course": "Computer Engineering",
+    "semester": 3
+  },
+  {
+    "id": 2,
+    "name": "Diya Shah",
+    "course": "Information Technology",
+    "semester": 2
+  },
+  {
+    "id": 3,
+    "name": "Krish Mehta",
+    "course": "Computer Engineering",
+    "semester": 4
+  },
+  {
+    "id": 4,
+    "name": "Riya Desai",
+    "course": "Information Technology",
+    "semester": 3
+  },
+  {
+    "id": 5,
+    "name": "Vivaan Joshi",
+    "course": "Computer Engineering",
+    "semester": 2
+  },
+  {
+    "id": 6,
+    "name": "Anaya Shah",
+    "course": "Information Technology",
+    "semester": 4
+  },
+  {
+    "id": 7,
+    "name": "Reyansh Patel",
+    "course": "Computer Engineering",
+    "semester": 3
+  },
+  {
+    "id": 8,
+    "name": "Myra Mehta",
+    "course": "Information Technology",
+    "semester": 2
+  },
+  {
+    "id": 9,
+    "name": "Advik Desai",
+    "course": "Computer Engineering",
+    "semester": 4
+  },
+  {
+    "id": 10,
+    "name": "Sara Joshi",
+    "course": "Information Technology",
+    "semester": 3
+  },
+  {
+    "id": 11,
+    "name": "Arjun Shah",
+    "course": "Computer Engineering",
+    "semester": 2
+  },
+  {
+    "id": 12,
+    "name": "Isha Patel",
+    "course": "Information Technology",
+    "semester": 4
+  },
+  {
+    "id": 13,
+    "name": "Dev Mehta",
+    "course": "Computer Engineering",
+    "semester": 3
+  },
+  {
+    "id": 14,
+    "name": "Kiara Desai",
+    "course": "Information Technology",
+    "semester": 2
+  },
+  {
+    "id": 15,
+    "name": "Rudra Joshi",
+    "course": "Computer Engineering",
+    "semester": 4
+  }
+]

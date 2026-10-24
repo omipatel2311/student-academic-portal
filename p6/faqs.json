@@ -1,0 +1,78 @@
+
+[
+  {
+    "id": 1,
+    "question": "What is StudentHub?",
+    "answer": "StudentHub is a portal for student academic information."
+  },
+  {
+    "id": 2,
+    "question": "How can I register?",
+    "answer": "Fill in the registration form with your details."
+  },
+  {
+    "id": 3,
+    "question": "How can I view college events?",
+    "answer": "Open the Events section of the portal."
+  },
+  {
+    "id": 4,
+    "question": "Can I search for events?",
+    "answer": "Yes, use the search box to find events."
+  },
+  {
+    "id": 5,
+    "question": "Can I filter events by category?",
+    "answer": "Yes, select a category from the filter menu."
+  },
+  {
+    "id": 6,
+    "question": "Can I sort events?",
+    "answer": "Yes, sort event titles from A to Z or Z to A."
+  },
+  {
+    "id": 7,
+    "question": "What is JSON?",
+    "answer": "JSON is a text format used to store and exchange data."
+  },
+  {
+    "id": 8,
+    "question": "What is the Fetch API?",
+    "answer": "The Fetch API retrieves resources such as JSON files."
+  },
+  {
+    "id": 9,
+    "question": "What is pagination?",
+    "answer": "Pagination divides a large list into smaller pages."
+  },
+  {
+    "id": 10,
+    "question": "How many events are available?",
+    "answer": "The sample events file contains 15 events."
+  },
+  {
+    "id": 11,
+    "question": "Can I view student records?",
+    "answer": "The sample students.json file contains student records."
+  },
+  {
+    "id": 12,
+    "question": "How do I change the event category?",
+    "answer": "Choose another category from the category dropdown."
+  },
+  {
+    "id": 13,
+    "question": "Why is my JSON file not loading?",
+    "answer": "Check the filename and use Live Server to open the page."
+  },
+  {
+    "id": 14,
+    "question": "What does the search box do?",
+    "answer": "It finds matching event titles and descriptions."
+  },
+  {
+    "id": 15,
+    "question": "Can I use StudentHub on mobile?",
+    "answer": "Yes, the page layout adjusts to smaller screens."
+  }
+]
