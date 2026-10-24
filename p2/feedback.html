@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub | Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>StudentHub Portal</h1>
+        <p>Your Academic Companion</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="events.html">Events</a>
+        <a href="profile.html">Profile</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <section class="content-box">
+            <h2 class="page-title">Student Feedback</h2>
+            <p class="intro">
+                Share your experience and help us improve StudentHub.
+            </p>
+
+            <form action="#" method="post">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your full name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label for="rating">Your Rating</label>
+                <select id="rating" name="rating" required>
+                    <option value="">Select your rating</option>
+                    <option value="excellent">Excellent</option>
+                    <option value="good">Good</option>
+                    <option value="average">Average</option>
+                    <option value="poor">Poor</option>
+                </select>
+
+                <label for="message">Your Feedback</label>
+                <textarea id="message" name="message"
+                          placeholder="Write your feedback here"
+                          required></textarea>
+
+                <button type="submit">Submit Feedback</button>
+                <button type="reset">Clear Form</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>StudentHub Portal | WDF Practical</p>
+    </footer>
+
+</body>
+</html>
