@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub | Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-content">
+            <div>
+                <h1>StudentHub Portal</h1>
+                <p>Your Academic Companion</p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="register.html">Register</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="events.html">Events</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <p class="tagline">JOIN STUDENTHUB</p>
+                <h2>Student Registration</h2>
+                <p>Create your student profile by filling in the details below.</p>
+            </div>
+
+            <form action="#" method="post">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname"
+                       placeholder="Enter your full name" required>
+
+                <label for="enrollment">Enrollment Number</label>
+                <input type="text" id="enrollment" name="enrollment"
+                       placeholder="Enter enrollment number" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label for="semester">Semester</label>
+                <select id="semester" name="semester" required>
+                    <option value="">Select semester</option>
+                    <option value="1">Semester 1</option>
+                    <option value="2">Semester 2</option>
+                    <option value="3">Semester 3</option>
+                    <option value="4">Semester 4</option>
+                    <option value="5">Semester 5</option>
+                    <option value="6">Semester 6</option>
+                    <option value="7">Semester 7</option>
+                    <option value="8">Semester 8</option>
+                </select>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password"
+                       placeholder="Create a password" required>
+
+                <button type="submit" class="btn">Register Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>StudentHub Portal | WDF Practical 3</p>
+    </footer>
+
+</body>
+</html>
