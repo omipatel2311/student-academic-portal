@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - Interactive Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>StudentHub Portal</h1>
+        <button id="menuBtn" class="menu-btn">☰</button>
+        <button id="themeBtn">🌙 Dark Mode</button>
+    </header>
+
+    <nav id="navbar" class="navbar">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#faq">FAQ</a>
+    </nav>
+
+    <main class="container" id="home">
+
+        <section class="hero">
+            <h2>Welcome to StudentHub</h2>
+            <p>Your academic companion for college life.</p>
+            <button id="noticeBtn">Show Notification</button>
+            <button id="openModal">Learn More</button>
+        </section>
+
+        <div id="notification" class="notification">
+            Welcome to StudentHub!
+            <button id="closeNotice">✕</button>
+        </div>
+
+        <section id="features">
+            <h2>Student Tips</h2>
+            <div class="slider">
+                <button id="prevBtn">❮</button>
+                <div>
+                    <h3 id="slideTitle">Manage Your Time</h3>
+                    <p id="slideText">Create a daily study timetable.</p>
+                </div>
+                <button id="nextBtn">❯</button>
+            </div>
+        </section>
+
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <button class="faq-question">What is StudentHub? +</button>
+                <p class="faq-answer">StudentHub organizes useful academic information.</p>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">Is it mobile friendly? +</button>
+                <p class="faq-answer">Yes, it supports mobile, tablet, and desktop screens.</p>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">Can I change the theme? +</button>
+                <p class="faq-answer">Yes, use the theme button to switch themes.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <button id="closeModal" class="close-btn">✕</button>
+            <h2>About StudentHub</h2>
+            <p>StudentHub makes academic information easy to access.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>StudentHub Portal | WDF Practical 4</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
